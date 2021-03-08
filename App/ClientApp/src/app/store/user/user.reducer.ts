@@ -1,11 +1,11 @@
 import { Action, createReducer, on } from '@ngrx/store';
-import { User } from '../models/user.model';
+import { UserModel } from '../models/user.model';
 import * as UserActions from './user.actions';
 
 export const userFeatureKey = 'user';
 
 export interface State {
-  users: User[];
+  users: UserModel[];
   uiDisabled: boolean;
   error: any;
 }

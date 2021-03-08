@@ -17,6 +17,7 @@ import { EffectsModule } from '@ngrx/effects';
 import { AppEffects } from './app.effects';
 import * as fromUser from './store/user/user.reducer';
 import { UserEffects } from './store/user/user.effects';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { UserEffects } from './store/user/user.effects';
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -34,6 +36,7 @@ import { UserEffects } from './store/user/user.effects';
     { path: '', component: HomeComponent, pathMatch: 'full' },
     { path: 'counter', component: CounterComponent },
     { path: 'fetch-data', component: FetchDataComponent },
+    { path: 'users', component: UsersComponent },
 ], { relativeLinkResolution: 'legacy' }),
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
