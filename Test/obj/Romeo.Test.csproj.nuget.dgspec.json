@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj": {}
+    "c:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj": {
+    "c:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj",
+        "projectUniqueName": "c:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj",
         "projectName": "Romeo.Test",
-        "projectPath": "C:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj",
+        "projectPath": "c:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj",
         "packagesPath": "C:\\Users\\tsdna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tsdna\\repos\\Romeo\\Test\\obj\\",
+        "outputPath": "c:\\Users\\tsdna\\repos\\Romeo\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

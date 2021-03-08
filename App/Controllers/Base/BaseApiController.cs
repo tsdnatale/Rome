@@ -13,5 +13,10 @@ namespace Romeo.App.Controllers
         {
             _logger = logger;
         }
+
+        public void LogInformation(string message)
+        {
+            _logger.LogInformation(message);
+        }
     }
 }
