@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romeo.App", "Romeo.App\Romeo.App.csproj", "{184B1F5F-5C83-423A-A529-E3A1B68C433D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romeo.App", "App\Romeo.App.csproj", "{184B1F5F-5C83-423A-A529-E3A1B68C433D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romeo.Test", "Romeo.Test\Romeo.Test.csproj", "{72DCF415-4C74-4190-AD60-87E10DE16CC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romeo.Test", "Test\Romeo.Test.csproj", "{72DCF415-4C74-4190-AD60-87E10DE16CC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

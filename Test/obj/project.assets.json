@@ -5563,11 +5563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tsdna\\repos\\Romeo\\Romeo.Test\\Romeo.Test.csproj",
+      "projectUniqueName": "C:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj",
       "projectName": "Romeo.Test",
-      "projectPath": "C:\\Users\\tsdna\\repos\\Romeo\\Romeo.Test\\Romeo.Test.csproj",
+      "projectPath": "C:\\Users\\tsdna\\repos\\Romeo\\Test\\Romeo.Test.csproj",
       "packagesPath": "C:\\Users\\tsdna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tsdna\\repos\\Romeo\\Romeo.Test\\obj\\",
+      "outputPath": "C:\\Users\\tsdna\\repos\\Romeo\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
