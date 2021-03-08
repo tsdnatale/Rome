@@ -19,6 +19,7 @@ export class UserEffects {
       tap(() => console.log('effect called', UserActions.loadUsers.type)),
       switchMap(() =>
         this.apiService.GetUsers().pipe(
+          tap(response => console.log('effect users', response)),
           map(response => UserActions.loadUsersSuccess({ users: response })),
           catchError(error => of(UserActions.loadUsersFailure({ error }))))
       )

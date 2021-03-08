@@ -7,7 +7,7 @@ import { catchError, map, mergeMap, reduce, switchMap, tap } from 'rxjs/operator
 @Injectable({providedIn: 'root'})
 export class ApiService {
   private readonly baseApiUrl = 'https://localhost:5001/api/'
-  private readonly usersUrl = this.baseApiUrl + 'user/users';
+  private readonly usersUrl = this.baseApiUrl + 'users';
   private readonly headers = { 'Content-Type': 'application/json'};
 
   constructor(private httpClient: HttpClient) {
